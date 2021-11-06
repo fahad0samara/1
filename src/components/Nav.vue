@@ -17,6 +17,7 @@
             :to="link"
             active-class="border"
           >
+
             <v-list-item-action>
               <v-icon>{{ link.icon }}</v-icon>
             </v-list-item-action>
@@ -41,6 +42,8 @@ export default {
         { icon: "fas fa-chart-line", text: "investments", route: "/footer" },
         { icon: "fas fa-balance-scale-right", text: "insurance", route: "/body" },
         { icon: "fas fa-briefcase", text: "business", route: "/home" },
+        { icon: "fas fa-briefcase", text: "business", route: "/home" },
+      ],
       ],
       slides: [
         " online check and payment",
